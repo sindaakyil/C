@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+
+int girilen;
+int eb=0;
+for(int i=1;i<=5;i++){
+    printf("%d . sayi giriniz",i);
+    scanf("%d",&girilen);
+    if(girilen>eb){
+        eb=girilen;
+    
+    }
+    
+}
+    printf("en büyük sayi=%d",eb);
+    return 0;
+}
