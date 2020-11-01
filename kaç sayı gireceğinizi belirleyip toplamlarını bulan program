@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+
+    int n,sayi;
+    int toplam=0;
+    printf("kaç sayı gireceksiniz");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        printf("%d sayıyı giriniz",i);
+        scanf("%d",&sayi);
+        toplam=toplam+sayi;
+        
+    }
+    printf("%d tane sayınınn taplamı=%d ",n,toplam);
+
+    return 0;
+}
