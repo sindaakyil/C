@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(int argc, const char * argv[]) {
+    int n,top=0;
+    printf("sayı giriniz");
+    scanf("%d",&n);
+    
+    for(int i=1;i<=n;i++){
+        top=top+i*i;
+    }
+    printf("%d",top);
+    return 0;
+}
